@@ -35,7 +35,7 @@ form.onsubmit = (e)=>{
     }else{ //if pass is empty then remove error and add valid class
       pField.classList.remove("error");
       pField.classList.add("valid");
-      window.location.replace("index.html")
+      
     }
     
   }
